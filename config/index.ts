@@ -16,7 +16,7 @@ export default defineConfig(async (merge, { command, mode }) => {
       828: 1.81 / 2
     },
     sourceRoot: 'src',
-    outputRoot: 'docs',
+    outputRoot: 'dist',
     plugins: [],
     defineConstants: {
     },
@@ -58,7 +58,7 @@ export default defineConfig(async (merge, { command, mode }) => {
       }
     },
     h5: {
-      publicPath: 'https://chen-mu.github.io/ingredient/',
+      publicPath: '/ingredient/',
       staticDirectory: 'static',
       output: {
         filename: 'js/[name].[hash:8].js',
